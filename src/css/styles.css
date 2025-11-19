@@ -1,0 +1,215 @@
+:root{
+--primary:#0d6efd;
+--bg-gradient: linear-gradient(90deg,#0b5ed7 0%, #0d6efd 50%, #6fb1ff 100%);
+}
+
+
+body{
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+
+.nav-menu-list {
+  gap: 20px;          
+}
+
+.nav-item {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #352d2d;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.hover-text-primary:hover {
+  color: var(--bs-primary) !important;
+  text-decoration: underline;
+}
+
+.heading{
+    text-align: left; 
+}
+
+.home-section{
+    background: linear-gradient(to bottom right, #eff6ff, #ffffff, #cffafe);
+  
+}
+
+.hero-title {
+    font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+    .hero-title {
+        font-size: 3.75rem;
+    }
+}
+
+.hero-subtitle {
+    font-size: 1.25rem; 
+    margin-bottom: 2rem; 
+    line-height: 1.625; 
+}
+
+.desc-text{
+    font-size: 1.125rem;     
+    color: #374151;          
+    margin-bottom: 2.5rem; 
+}
+
+.custom-hover:hover {
+    background-color: rgb(200, 0, 255) !important;
+}
+
+.card-hover {
+    transition: transform 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) { /* md */
+    #grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 992px) { /* lg */
+    #grid-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .purpose-hover{
+     background: linear-gradient(to bottom right, #EFF6FF, red);
+     transition: all 0.3s ease;
+  }
+
+  .purpose-hover:hover{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3); 
+    transform: translateY(-0.5rem); 
+
+  }
+
+  .custom-hover-green {
+    background: linear-gradient(to bottom right, #ECFDF5, green);
+    transition: all 0.3s ease;
+}
+
+.custom-hover-green:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3); 
+    transform: translateY(-0.5rem);
+}
+
+  .custom-hover-orange{
+    background: linear-gradient(to bottom right, #ECFDF5, orange);
+    transition: all 0.3s ease;
+}
+
+.custom-hover-orange:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3); 
+    transform: translateY(-0.5rem); 
+}
+
+.custom-hover-blue{
+    background: linear-gradient(to bottom right, #ECFDF5, blue);
+    transition: all 0.3s ease;
+}
+
+.custom-hover-blue:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3); 
+    transform: translateY(-0.5rem); 
+}
+
+.flex-container {
+    width: 75vw;
+    height: 40vh;
+}
+
+#grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem; 
+}
+
+@media (min-width: 768px) {
+    #grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) { 
+    #grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.custom-card {
+    gap: 1rem; 
+    border-left: 4px solid #EF4444; 
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.3); 
+}
+
+#join-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    #join-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+#us-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem; 
+}
+
+@media (min-width: 768px) { 
+    #us-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.custom-gradient-shadow {
+    background: linear-gradient(to bottom right, #3B82F6, #1D4ED8);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.3); 
+}
+
+.custom-gradient-green {
+    background: linear-gradient(to bottom right, #e2e4e8, green);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.3); 
+}
+
+.custom-gradient-orange {
+    background: linear-gradient(to bottom right, #d9dde3, orange);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.3); 
+}
+
+.hover-card {
+    transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.3); 
+}
+
+.custom-blue-box {
+    width: 3rem;
+    height: 3rem;
+    background-color: #DBEAFE; 
+}
+
