@@ -20,8 +20,26 @@ main {
   
 }
 
+@media (max-width: 765px) {
+    .nav-container {
+    height: 20vh;
+}
+    .nav-icon{
+        font-size: 15px !important; 
+    }
+
+    
+    .nav-head {
+        font-size: 15px !important; 
+        font-weight: 600;           
+        color: #000;               
+  }
+
+}
+
+
 .nav-container {
-    height: 8vh;
+    height: 10vh;
 }
 
 .nav-menu-list {
@@ -85,7 +103,7 @@ main {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  flex: 0 0 48%; /* Makes exactly 2 cards per row */
+  flex: 0 0 48%; 
 }
 
 .our-card{
@@ -225,12 +243,12 @@ main {
     transform: scale(1.05);
 }
 
-@media (min-width: 768px) { /* md */
+@media (min-width: 768px) { 
     #grid-container {
       grid-template-columns: repeat(2, 1fr);
     }
   }
-  @media (min-width: 992px) { /* lg */
+  @media (min-width: 992px) { 
     #grid-container {
       grid-template-columns: repeat(4, 1fr);
     }
