@@ -146,12 +146,13 @@ main {
 }
 
 .stat-card:hover {
+  font-size: 3.5rem;
   transform: scale(1.08);
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
 }
 
 .stat-number {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #fff;
   text-shadow: 0 0 10px rgba(255,255,255,0.7);
@@ -194,9 +195,7 @@ main {
 }
 
 .button-hover:hover {
-    color: rgb(29, 6, 241);
     text-decoration: underline;
-    background-color: rgb(214, 210, 208) !important;
     transform: scale(1.1);
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
 }
